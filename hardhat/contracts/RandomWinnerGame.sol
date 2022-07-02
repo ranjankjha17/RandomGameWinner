@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
 
 contract RandomWinnerGame is VRFConsumerBase, Ownable{
-    
+    //
     //The amount of Link to send with the request
     uint256 public fee;
     //ID of public key against which randomness is generated
